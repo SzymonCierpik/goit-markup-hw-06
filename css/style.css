@@ -739,8 +739,11 @@ textarea {
   border: 1px solid #21212133;
 }
 
-::placeholder {
+.size-comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
+}
+.newslatter::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 form {
@@ -797,7 +800,6 @@ label:focus-within svg {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  color: #2196f3;
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -806,4 +808,14 @@ label:focus-within svg {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  color: var(--whitehihi);
+}
+.newslatter-style {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-bottom: 20px;
 }
