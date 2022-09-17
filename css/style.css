@@ -779,14 +779,31 @@ input {
 
 input:focus,
 textarea:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   border-color: var(--kamikaze);
 }
 
 label:focus-within svg {
   fill: var(--kamikaze);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .position-svg {
   position: absolute;
   margin-top: -29px;
   margin-left: 14px;
+}
+
+.newslatter {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #2196f3;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
