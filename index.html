@@ -503,30 +503,58 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close" data-modal-close>
-          <svg>
+          <svg class="position-close">
             <use
               href="./images/icons.svg#icon-close"
-              height="30px"
-              width="30px"
+              height="20px"
+              width="20px"
             ></use>
           </svg>
         </button>
         <p class="label-form">Zostaw swoje dane w formularzu poniżej</p>
-        <form>
-          <label>&nbspImię<input type="text" name="username" /></label>
-          <label>&nbspTelefon<input type="tel" name="phone" /></label>
-          <label>&nbspEmail<input type="email" name="mail" /></label>
-          <label
-            >&nbspKomentarz<input
-              class="size-comment"
-              type="text"
-              name="comment"
-          /></label>
 
+        <form>
+          <label
+            >&nbspImię<input class="border-style" type="text" name="username" />
+            <svg class="position-svg">
+              <use
+                href="./images/icons.svg#icon-person"
+                height="18px"
+                width="18px"
+              ></use></svg
+          ></label>
+          <label
+            >&nbspTelefon<input
+              class="border-style"
+              type="tel"
+              name="phone" /><svg class="position-svg">
+              <use
+                href="./images/icons.svg#icon-phone-black"
+                height="18px"
+                width="18px"
+              ></use></svg
+          ></label>
+          <label
+            >&nbspEmail<input
+              class="border-style"
+              type="email"
+              name="mail" /><svg class="position-svg">
+              <use
+                href="./images/icons.svg#icon-email-black"
+                height="18px"
+                width="18px"
+              ></use></svg
+          ></label>
+          <label
+            >&nbspKomentarz<textarea
+              class="size-comment border-style"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
           <input class="check-box" type="checkbox" />
-          <p class="position-text-box">
-            Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
-          </p>
+          <label class="position-text-box"
+            >Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</label
+          >
         </form>
         <button type="button" class="button-send">Wyślij</button>
       </div>
