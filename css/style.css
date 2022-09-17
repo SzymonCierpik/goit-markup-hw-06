@@ -819,3 +819,20 @@ label:focus-within svg {
   text-align: left;
   margin-bottom: 20px;
 }
+
+.check-box::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 1px;
+  background-color: var(--whitehihi);
+}
+
+input:checked::before {
+  background-color: #2196f3;
+  border: 1px solid #2196f3;
+  background-size: cover;
+}
