@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--grayhey);
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -88,7 +88,7 @@ li {
   height: 50px;
   color: var(--whitehihi);
   font-weight: 700;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   letter-spacing: 0.06em;
   text-align: center;
@@ -118,25 +118,25 @@ li {
 }
 
 .link-agency::after {
-  content: "";
+  content: '';
   display: block;
   width: 53px;
   height: 4px;
   left: 93px;
   top: 47px;
-  background: #2196f3;
+  background: var(--kamikaze);
   border-radius: 2px;
   position: absolute;
 }
 
 .link-portfolio::after {
-  content: "";
+  content: '';
   display: block;
   width: 58px;
   height: 4px;
   left: 192px;
   top: 45px;
-  background: #2196f3;
+  background: var(--kamikaze);
   border-radius: 2px;
   position: absolute;
 }
@@ -169,7 +169,7 @@ a {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -179,7 +179,7 @@ a {
 }
 
 .logo-footer {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -224,7 +224,7 @@ a {
   margin-left: 4px;
   background: var(--buttonwhite);
   cursor: pointer;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -246,7 +246,7 @@ a {
 }
 
 .text-picture {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -257,8 +257,8 @@ a {
   margin-right: 24px;
 }
 
-p[class="text-picture"] {
-  font-family: Roboto;
+p[class='text-picture'] {
+  font-family: 'Roboto';
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
@@ -267,7 +267,7 @@ p[class="text-picture"] {
 }
 
 .font2 {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -437,7 +437,7 @@ p[class="text-picture"] {
 }
 
 .foto-graybox {
-  background-image: url("../images/img.png");
+  background-image: url('../images/img.png');
 }
 
 .border-box {
@@ -486,7 +486,7 @@ p[class="text-picture"] {
 }
 
 .join-us {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -552,39 +552,39 @@ p[class="text-picture"] {
 }
 
 .img-tech {
-  background-image: url("../images/portfolio_img9.jpg");
+  background-image: url('../images/portfolio_img9.jpg');
 }
 
 .img-diz {
-  background-image: url("../images/portfolio_img1.jpg");
+  background-image: url('../images/portfolio_img1.jpg');
 }
 
 .img-ap {
-  background-image: url("../images/portfolio_img2.jpg");
+  background-image: url('../images/portfolio_img2.jpg');
 }
 
 .img-prime {
-  background-image: url("../images/portfolio_img3.jpg");
+  background-image: url('../images/portfolio_img3.jpg');
 }
 
 .img-pro {
-  background-image: url("../images/portfolio_img4.jpg");
+  background-image: url('../images/portfolio_img4.jpg');
 }
 
 .img-insp {
-  background-image: url("../images/portfolio_img5.jpg");
+  background-image: url('../images/portfolio_img5.jpg');
 }
 
 .img-mag {
-  background-image: url("../images/portfolio_img6.jpg");
+  background-image: url('../images/portfolio_img6.jpg');
 }
 
 .img-lab {
-  background-image: url("../images/portfolio_img7.jpg");
+  background-image: url('../images/portfolio_img7.jpg');
 }
 
 .img-gro {
-  background-image: url("../images/portfolio_img8.jpg");
+  background-image: url('../images/portfolio_img8.jpg');
 }
 .overlay {
   width: 100%;
@@ -600,7 +600,7 @@ p[class="text-picture"] {
   padding-top: 49px;
   padding-right: 46px;
   padding-bottom: 49px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -667,7 +667,7 @@ p[class="text-picture"] {
 }
 
 .label-form {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 20px;
   font-weight: 700;
   line-height: 23px;
@@ -685,7 +685,7 @@ p[class="text-picture"] {
   padding-top: 12px;
   bottom: 12px;
   padding-left: 16px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
@@ -696,13 +696,13 @@ p[class="text-picture"] {
   width: 200px;
   height: 50px;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
-  background: #2196f3;
+  background: var(--kamikaze);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -714,16 +714,16 @@ p[class="text-picture"] {
 }
 
 .button-save {
-  background: #2196f3;
+  background: var(--kamikaze);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 200px;
   height: 50px;
   margin-top: 113px;
   margin-left: 12px;
-  border-color: #2196f3;
+  border-color: var(--kamikaze);
   cursor: pointer;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -749,7 +749,7 @@ p[class="text-picture"] {
 }
 
 .position-text-box {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -761,7 +761,7 @@ p[class="text-picture"] {
 textarea {
   resize: none;
   border-radius: 4px;
-  border: 1px solid #21212133;
+  border: 1px solid var(--blackho);
 }
 
 .size-comment::placeholder {
@@ -781,7 +781,7 @@ label {
   position: relative;
   display: block;
   padding-top: 10px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 12px;
   font-weight: 400;
   line-height: 19px;
@@ -796,7 +796,7 @@ input {
   border-radius: 4px;
   background: none;
   border-radius: 4px;
-  border: 1px solid #21212133;
+  border: 1px solid var(--blackho);
   padding-left: 42px;
 }
 
@@ -828,15 +828,14 @@ label:focus-within svg {
   width: 358px;
   height: 50px;
   padding-left: 16px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: var(--whitehihi);
 }
 .newslatter-style {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -848,7 +847,7 @@ label:focus-within svg {
 .check-box::before {
   display: block;
   position: absolute;
-  content: "";
+  content: '';
   width: 15px;
   height: 15px;
   border: 1px solid black;
@@ -857,8 +856,8 @@ label:focus-within svg {
 }
 
 input:checked::before {
-  background-color: #2196f3;
-  border: 1px solid #2196f3;
+  background-color: var(--kamikaze);
+  border: 1px solid var(--kamikaze);
   background-image: url("data:image/svg+xml,%3Csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='16' height='15' rx='2' fill='%232196F3'/%3E%3Cpath d='m3.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3E%3C/svg%3E");
   background-repeat: none;
   background-position: center;
