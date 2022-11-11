@@ -756,6 +756,7 @@ label {
   letter-spacing: 0.01em;
   text-align: left;
 }
+
 input {
   position: relative;
   width: 448px;
@@ -774,6 +775,17 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+}
+
+label:focus-within svg {
+  fill: var(--blue);
+}
+
+input:focus,
+textarea:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  border-color: var(--blue);
+  outline: none;
 }
 
 .position-svg {
