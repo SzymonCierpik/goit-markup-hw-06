@@ -803,3 +803,21 @@ textarea {
 .color-text::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
+
+.heading__image {
+  position: relative;
+}
+.what-we-do__signature {
+  position: absolute;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142857143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 30px 0px;
+  bottom: 0;
+  width: 100%;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--white);
+}
