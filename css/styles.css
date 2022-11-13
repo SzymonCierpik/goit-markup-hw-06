@@ -765,7 +765,7 @@ input {
   background: none;
   border-radius: 4px;
   border: 1px solid var(--blackho);
-  padding-left: 35px;
+  padding-left: 42px;
 }
 
 textarea {
@@ -796,7 +796,7 @@ textarea:focus {
 }
 
 textarea {
-  padding-left: 16px;
+  padding-left: 15px;
   padding-top: 12px;
 }
 
