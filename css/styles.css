@@ -821,3 +821,64 @@ textarea {
   background: rgba(47, 48, 58, 0.8);
   color: var(--white);
 }
+
+.inline {
+  display: inline-block;
+  text-decoration: underline;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+input:checked::before {
+  background-color: var(--kamikaze);
+  border: 1px solid var(--kamikaze);
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='16' height='15' rx='2' fill='%232196F3'/%3E%3Cpath d='m3.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3E%3C/svg%3E");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.check-box::before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 1px;
+  background-color: var(--white);
+}
+
+.check-box {
+  display: flex;
+  position: absolute;
+  height: 10px;
+  width: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.margin {
+  margin-top: 10px;
+  margin-left: 39px;
+}
+
+.button-send {
+  width: 200px;
+  height: 50px;
+  color: var(--white);
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 164px;
+  margin-right: 164px;
+}
