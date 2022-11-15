@@ -248,7 +248,8 @@ body {
 .button__item:focus,
 .button__item:hover,
 .button-send:hover,
-.button-send:focus {
+.button-send:focus,
+.button-save:hover {
   background: var(--button-color);
   color: var(--blue);
   border-color: #2196f3;
@@ -773,15 +774,6 @@ input {
   padding-left: 42px;
 }
 
-textarea {
-  position: relative;
-  width: 448px;
-  height: 120px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  resize: none;
-}
-
 label:focus-within svg {
   fill: var(--blue);
 }
@@ -800,13 +792,42 @@ textarea:focus {
   left: 15px;
 }
 
-textarea {
+.footer-textarea {
+  margin-top: 10px;
   padding-left: 15px;
-  padding-top: 12px;
+  padding-top: 15px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  resize: none;
+  background: #2f303a;
 }
 
-.color-text::placeholder {
+.modal-textarea {
+  padding-left: 15px;
+  padding-top: 12px;
+  position: relative;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+}
+
+.modal-textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
+}
+
+.footer-textarea::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .heading__image {
@@ -891,4 +912,33 @@ input:checked::before {
 .inline:hover {
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   font-style: italic;
+}
+
+.button-save {
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  color: #ececec;
+  border-color: var(--blue);
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  padding-left: 42px;
+  color: var(--whitehihi);
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z' fill='white'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position-x: 148px;
+  background-position-y: 12px;
+  color: var(--white);
+}
+
+.button-position {
+  margin-top: 50px;
+  margin-left: -60px;
 }
