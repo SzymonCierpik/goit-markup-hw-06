@@ -246,9 +246,14 @@ body {
 }
 
 .button__item:focus,
-.button__item:hover {
+.button__item:hover,
+.button-send:hover,
+.button-send:focus {
   background: var(--button-color);
   color: var(--blue);
+  border-color: #2196f3;
+  border: double;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .article--flex {
@@ -881,4 +886,9 @@ input:checked::before {
   margin-top: 30px;
   margin-left: 164px;
   margin-right: 164px;
+}
+
+.inline:hover {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  font-style: italic;
 }
