@@ -856,8 +856,8 @@ textarea:focus {
 }
 
 input:checked::before {
-  background-color: var(--kamikaze);
-  border: 1px solid var(--kamikaze);
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
   background-image: url("data:image/svg+xml,%3Csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='16' height='15' rx='2' fill='%232196F3'/%3E%3Cpath d='m3.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3E%3C/svg%3E");
   background-repeat: none;
   background-position: center;
@@ -920,7 +920,7 @@ input:checked::before {
   border-radius: 4px;
   width: 200px;
   height: 50px;
-  color: #ececec;
+  color: var(--button-color);
   border-color: var(--blue);
   cursor: pointer;
   font-family: 'Roboto';
@@ -934,7 +934,6 @@ input:checked::before {
   background-repeat: no-repeat;
   background-position-x: 148px;
   background-position-y: 12px;
-  color: var(--white);
 }
 
 .button-position {
